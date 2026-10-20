@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import "forge-std/Test.sol";
-import "../src/SentinelVault.sol";
+import "../SentinelVault.sol";
 
 contract SentinelVaultTest is Test {
     SentinelVault v;
