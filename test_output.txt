@@ -1,0 +1,15 @@
+Ran 11 tests for test/SentinelVault.t.sol:SentinelVaultTest
+[PASS] testFuzz_AgentNeverExceedsPerTxCap(uint256) (runs: 256, μ: 23482, ~: 23482)
+[PASS] test_AgentSpendsWithinCaps() (gas: 87503)
+[PASS] test_DailyWindowRollsOver() (gas: 129165)
+[PASS] test_OwnerApprovesElevatedAction() (gas: 49654)
+[PASS] test_RevertWhen_AgentChangesPolicy() (gas: 29072)
+[PASS] test_RevertWhen_AgentUsesOwnerPath() (gas: 16358)
+[PASS] test_RevertWhen_NotAllowlisted() (gas: 20733)
+[PASS] test_RevertWhen_OverDailyCap() (gas: 115271)
+[PASS] test_RevertWhen_OverPerTxCap() (gas: 22815)
+[PASS] test_RevertWhen_Paused() (gas: 43080)
+[PASS] test_RevertWhen_StrangerCallsExecute() (gas: 16535)
+Suite result: ok. 11 passed; 0 failed; 0 skipped; finished in 20.66ms (17.09ms CPU time)
+
+Ran 1 test suite in 22.96ms (20.66ms CPU time): 11 tests passed, 0 failed, 0 skipped (11 total tests)
